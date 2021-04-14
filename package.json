@@ -1,0 +1,25 @@
+{
+  "name": "internet-test-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node internetTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bscottnz/internet-test-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bscottnz/internet-test-bot/issues"
+  },
+  "homepage": "https://github.com/bscottnz/internet-test-bot#readme",
+  "dependencies": {
+    "check-internet-connected": "^2.0.5",
+    "dotenv": "^8.2.0",
+    "twitter": "^1.7.1"
+  }
+}
