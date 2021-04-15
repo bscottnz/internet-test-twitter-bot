@@ -24,8 +24,8 @@ const twitterPost = (newStatus) => {
 // Internet checking logic
 
 const config = {
-  timeout: 5000,
-  retries: 0,
+  timeout: 4000,
+  retries: 1,
   domain: 'google.com',
 };
 
