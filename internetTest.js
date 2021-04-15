@@ -25,7 +25,7 @@ const twitterPost = (newStatus) => {
 
 const config = {
   timeout: 5000,
-  retries: 2,
+  retries: 0,
   domain: 'google.com',
 };
 
@@ -40,7 +40,7 @@ const checkInternet = () => {
         // this block will run when the internet has come back online after being down
         const twitterStatus = `Hey @SparkNZ, my internet has just cut out AGAIN. It has dropped ${timesDown} ${
           timesDown === 1 ? 'time' : 'times'
-        } today so far. Am I a bot? Maybe I am. \nhttps://github.com/bscottnz/internet-test-twitter-bot`;
+        } today so far. Am I a bot? Maybe I am. \nhttps://github.com/bscottnz/internet-test-twitter-bot/blob/main/internetTest.js`;
 
         twitterPost(twitterStatus);
 
